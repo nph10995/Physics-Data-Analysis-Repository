@@ -1,2 +1,2 @@
 # TestingBash
-Testing my command line capabilities in github
+This repository contains the various files used for data analysis during my capstone laboratory course at Binghamton University. 
