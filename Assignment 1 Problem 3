@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Jan 29 16:17:17 2017
+
+@author: nhilt
+"""
+
+#Assignment 1 Problem 3 
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(-np.pi, np.pi, 300)
+sin = np.sin(x)
+cos = np.cos(x)
+
+plt.figure(1, figsize = (6,4))
+plt.plot(x, sin, 'g-', label = "Sin(x)")
+plt.plot(x, cos, 'k-', label = "Cos(x)")
+plt.xlim(-np.pi,np.pi)
+plt.xlabel('x')
+plt.ylabel('y')
+plt.legend(loc = 'upper left')
+
+
+plt.savefig("Assignment 1 Problem 3.pdf")
